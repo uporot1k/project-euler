@@ -2,3 +2,17 @@
 
 // Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
 
+function numberSumm (number) {
+  
+  let count = 0;
+
+  for (let i = 0; i < number; i++) {
+
+    if ( i % 3 === 0 || i % 5 === 0 ) {
+      count += i;
+    }
+    
+  }
+}
+
+numberSumm (1000);
